@@ -6,7 +6,6 @@ namespace Octopus.Client.Repositories.Async
 {
     public interface ICertificateRepository : IResourceRepository, IGet<CertificateResource>, IFindByName<CertificateResource>, ICreate<CertificateResource>, IModify<CertificateResource>, IDelete<CertificateResource>
     {
-    
         /// <summary>
         /// Exports the certificate data.
         /// </summary>
